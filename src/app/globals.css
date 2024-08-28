@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite/dist/flowbite.css';
+
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  /* background-image: url('./images/bg.png'); */
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  background-color: #cbd3cb;
+font-family: serif;
+}
+
+
+/* .hero{
+  filter: drop-shadow(2px 2px 30px #ea4dea);
+} */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
