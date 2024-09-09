@@ -86,8 +86,8 @@ const Hero = () => {
             className="object-cover object-center rounded hero"
             alt="hero"
             src="/images/Hero.png"
-            width={450}
-            height={380}
+            width={600}
+            height={600}
           />
         </motion.div>
       </div>
