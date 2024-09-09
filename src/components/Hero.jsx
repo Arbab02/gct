@@ -85,7 +85,7 @@ const Hero = () => {
           <Image
             className="object-cover object-center rounded hero"
             alt="hero"
-            src="/images/hero.png"
+            src="/images/Hero.png"
             width={450}
             height={380}
           />
