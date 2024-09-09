@@ -39,7 +39,7 @@ const FeatureHighlights = () => {
           >
             <FaTags className="text-4xl text-[green] mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">Best Prices</h3>
-            <p>Competitive pricing on all our high-quality garments.</p>
+            <p>Competitive pricing on all our high-quality Courses.</p>
           </motion.div>
           <motion.div
             className="bg-[transparent] border-2 border-[green] p-6 rounded-lg shadow-md"
@@ -50,7 +50,7 @@ const FeatureHighlights = () => {
             whileTap={{ scale: 0.95 }}
           >
             <FaUsers className="text-4xl text-[green] mx-auto mb-4" />
-            <h3 className="text-xl font-bold mb-2">Customer Support</h3>
+            <h3 className="text-xl font-bold mb-2">Student Support</h3>
             <p>24/7 support to assist you with any queries.</p>
           </motion.div>
           <motion.div
@@ -63,7 +63,7 @@ const FeatureHighlights = () => {
           >
             <FaAward className="text-4xl text-[green] mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">Top Quality</h3>
-            <p>Premium quality garments crafted with care.</p>
+            <p>Premium quality content crafted with care.</p>
           </motion.div>
         </div>
       </div>
