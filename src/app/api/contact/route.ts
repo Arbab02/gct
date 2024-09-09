@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import Contact from '../../api/../../model/contact.js';
-import db from '../../api/../../lib/mongodb.ts';
+import db from '../../api/../../lib/mongodb';
 import { NextResponse } from "next/server";
 
 export const POST = async (req:Request,res:Response)=>{
