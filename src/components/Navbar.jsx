@@ -42,7 +42,7 @@ const Navbar = () => {
         </motion.nav>
 
         <motion.button 
-          className="inline-flex items-center text-white bg-[#023502] border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 transition duration-300"
+          className="inline-flex items-center text-white bg-[green] border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 transition duration-300"
           initial={{ scale: 0.9 }}
           animate={{ scale: 1 }}
           whileHover={{ scale: 1.1 }}
