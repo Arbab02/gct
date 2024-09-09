@@ -41,7 +41,7 @@ const Navbar = () => {
           <Link className="mr-5 text-gray-700 font-bold hover:text-[green] transition duration-300" href="/Contact">Contact Us</Link>
         </motion.nav>
 
-        {/* <motion.button 
+        <motion.button 
           className="inline-flex items-center text-white bg-[#023502] border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 transition duration-300"
           initial={{ scale: 0.9 }}
           animate={{ scale: 1 }}
@@ -49,7 +49,7 @@ const Navbar = () => {
           whileTap={{ scale: 0.95 }}
           transition={{ duration: 0.3 }}
         >
-         Go to
+         umer@gmail.com
           <svg
             fill="none"
             stroke="currentColor"
@@ -61,7 +61,7 @@ const Navbar = () => {
           >
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
-        </motion.button> */}
+        </motion.button>
       </div>
     </motion.header>
   );
