@@ -39,7 +39,7 @@ const Hero = () => {
       initial="hidden"
       animate="visible"
       variants={containerVariants}
-      className="text-gray-400 bg-[#cbd3cb] body-font font-medium"
+      className="text-gray-400 bg-[#cbd3cb] mt-8 body-font font-medium"
     >
       <div className="container mx-auto flex px-4 py-6 md:flex-row flex-col items-center">
         <motion.div
